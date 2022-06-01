@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9625EFC-71F1-483F-9D72-F87AC62A72DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Sistema de Ensambles PACS COMPUTACION</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\AcerPredator\Desktop\Prueba\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icoPacs.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>28AE4B4242CE51B8F30747FF9D42FC71E658D37D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1449.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.4.11.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.4.11\lib\net40\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form Admin\AdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\AdminUI.Designer.cs">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\BienvnidaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\BienvnidaAdmin.Designer.cs">
+      <DependentUpon>BienvnidaAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\EnsambFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\EnsambFactura.Designer.cs">
+      <DependentUpon>EnsambFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\EnsamblesListos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\EnsamblesListos.Designer.cs">
+      <DependentUpon>EnsamblesListos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\FormEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\FormEmpleados.Designer.cs">
+      <DependentUpon>FormEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Admin\TodosEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Admin\TodosEnsambles.Designer.cs">
+      <DependentUpon>TodosEnsambles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Almacen\AlmacenUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Almacen\AlmacenUI.Designer.cs">
+      <DependentUpon>AlmacenUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Almacen\BienvenidaAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Almacen\BienvenidaAlmacen.Designer.cs">
+      <DependentUpon>BienvenidaAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Almacen\EnsamblesPendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Almacen\EnsamblesPendientes.Designer.cs">
+      <DependentUpon>EnsamblesPendientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Almacen\EnsamListo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Almacen\EnsamListo.Designer.cs">
+      <DependentUpon>EnsamListo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form RecServ\BienvenidaRecServ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form RecServ\BienvenidaRecServ.Designer.cs">
+      <DependentUpon>BienvenidaRecServ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form RecServ\EnsamblesPzasAsig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form RecServ\EnsamblesPzasAsig.Designer.cs">
+      <DependentUpon>EnsamblesPzasAsig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form RecServ\RecepcionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form RecServ\RecepcionUI.Designer.cs">
+      <DependentUpon>RecepcionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Tecnico\AgreObservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Tecnico\AgreObservacion.Designer.cs">
+      <DependentUpon>AgreObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Tecnico\BienvenidaTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Tecnico\BienvenidaTecnico.Designer.cs">
+      <DependentUpon>BienvenidaTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Tecnico\EditObservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Tecnico\EditObservaciones.Designer.cs">
+      <DependentUpon>EditObservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Tecnico\EnsamblesAsignados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Tecnico\EnsamblesAsignados.Designer.cs">
+      <DependentUpon>EnsamblesAsignados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Tecnico\TecnicoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Tecnico\TecnicoUI.Designer.cs">
+      <DependentUpon>TecnicoUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\AllProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\AllProductos.Designer.cs">
+      <DependentUpon>AllProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\BienvenidoAsesorV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\BienvenidoAsesorV.Designer.cs">
+      <DependentUpon>BienvenidoAsesorV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\EnsamblesSolicitados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\EnsamblesSolicitados.Designer.cs">
+      <DependentUpon>EnsamblesSolicitados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\EnsamSolicListos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\EnsamSolicListos.Designer.cs">
+      <DependentUpon>EnsamSolicListos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\ProductNoExist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\ProductNoExist.Designer.cs">
+      <DependentUpon>ProductNoExist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\ProductSiExist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\ProductSiExist.Designer.cs">
+      <DependentUpon>ProductSiExist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form Ventas\VentasUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Ventas\VentasUI.Designer.cs">
+      <DependentUpon>VentasUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\AgrObserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\AgrObserva.Designer.cs">
+      <DependentUpon>AgrObserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\AllEnamAlmVent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\AllEnamAlmVent.Designer.cs">
+      <DependentUpon>AllEnamAlmVent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\AllEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\AllEnsambles.Designer.cs">
+      <DependentUpon>AllEnsambles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\EditeObserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\EditeObserva.Designer.cs">
+      <DependentUpon>EditeObserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\EnsamblesFacturados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\EnsamblesFacturados.Designer.cs">
+      <DependentUpon>EnsamblesFacturados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FactureEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FactureEnsambles.Designer.cs">
+      <DependentUpon>FactureEnsambles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormCategorias.Designer.cs">
+      <DependentUpon>FormCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormClientes.Designer.cs">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormEditProfile.Designer.cs">
+      <DependentUpon>FormEditProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormMarcas.Designer.cs">
+      <DependentUpon>FormMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormProductos.Designer.cs">
+      <DependentUpon>FormProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\FormProvedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\FormProvedores.Designer.cs">
+      <DependentUpon>FormProvedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\ListEnsamAlmVent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\ListEnsamAlmVent.Designer.cs">
+      <DependentUpon>ListEnsamAlmVent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\ListEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\ListEnsambles.Designer.cs">
+      <DependentUpon>ListEnsambles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompartidos\PendEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompartidos\PendEnsambles.Designer.cs">
+      <DependentUpon>PendEnsambles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\AgrObservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\AgrObservacion.Designer.cs">
+      <DependentUpon>AgrObservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\DuplicaEnsamble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\DuplicaEnsamble.Designer.cs">
+      <DependentUpon>DuplicaEnsamble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\DuplicatEnsamble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\DuplicatEnsamble.Designer.cs">
+      <DependentUpon>DuplicatEnsamble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\EditeObserv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\EditeObserv.Designer.cs">
+      <DependentUpon>EditeObserv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\NuevoEnsamble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\NuevoEnsamble.Designer.cs">
+      <DependentUpon>NuevoEnsamble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\SeleccionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\SeleccionCliente.Designer.cs">
+      <DependentUpon>SeleccionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\SeleccionProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\SeleccionProductos.Designer.cs">
+      <DependentUpon>SeleccionProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupClient.Designer.cs">
+      <DependentUpon>SelectDupClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupEnsamble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupEnsamble.Designer.cs">
+      <DependentUpon>SelectDupEnsamble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEnsambles\SelectDupProduct.Designer.cs">
+      <DependentUpon>SelectDupProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helps\DataValidation.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecoveryPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecoveryPassword.Designer.cs">
+      <DependentUpon>RecoveryPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ExportAlmVent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ExportAlmVent.Designer.cs">
+      <DependentUpon>ExportAlmVent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Exportar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Exportar.Designer.cs">
+      <DependentUpon>Exportar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReportesVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReportesVentas.Designer.cs">
+      <DependentUpon>ReportesVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="Form Admin\AdminUI.resx">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\BienvnidaAdmin.resx">
+      <DependentUpon>BienvnidaAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\EnsambFactura.resx">
+      <DependentUpon>EnsambFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\EnsamblesListos.resx">
+      <DependentUpon>EnsamblesListos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\FormEmpleados.resx">
+      <DependentUpon>FormEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Admin\TodosEnsambles.resx">
+      <DependentUpon>TodosEnsambles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Almacen\AlmacenUI.resx">
+      <DependentUpon>AlmacenUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Almacen\BienvenidaAlmacen.resx">
+      <DependentUpon>BienvenidaAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Almacen\EnsamblesPendientes.resx">
+      <DependentUpon>EnsamblesPendientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Almacen\EnsamListo.resx">
+      <DependentUpon>EnsamListo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form RecServ\BienvenidaRecServ.resx">
+      <DependentUpon>BienvenidaRecServ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form RecServ\EnsamblesPzasAsig.resx">
+      <DependentUpon>EnsamblesPzasAsig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form RecServ\RecepcionUI.resx">
+      <DependentUpon>RecepcionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Tecnico\AgreObservacion.resx">
+      <DependentUpon>AgreObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Tecnico\BienvenidaTecnico.resx">
+      <DependentUpon>BienvenidaTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Tecnico\EditObservaciones.resx">
+      <DependentUpon>EditObservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Tecnico\EnsamblesAsignados.resx">
+      <DependentUpon>EnsamblesAsignados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Tecnico\TecnicoUI.resx">
+      <DependentUpon>TecnicoUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\AllProductos.resx">
+      <DependentUpon>AllProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\BienvenidoAsesorV.resx">
+      <DependentUpon>BienvenidoAsesorV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\EnsamblesSolicitados.resx">
+      <DependentUpon>EnsamblesSolicitados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\EnsamSolicListos.resx">
+      <DependentUpon>EnsamSolicListos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\ProductNoExist.resx">
+      <DependentUpon>ProductNoExist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\ProductSiExist.resx">
+      <DependentUpon>ProductSiExist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Ventas\VentasUI.resx">
+      <DependentUpon>VentasUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\AgrObserva.resx">
+      <DependentUpon>AgrObserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\AllEnamAlmVent.resx">
+      <DependentUpon>AllEnamAlmVent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\AllEnsambles.resx">
+      <DependentUpon>AllEnsambles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\EditeObserva.resx">
+      <DependentUpon>EditeObserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\EnsamblesFacturados.resx">
+      <DependentUpon>EnsamblesFacturados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FactureEnsambles.resx">
+      <DependentUpon>FactureEnsambles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormCategorias.resx">
+      <DependentUpon>FormCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormClientes.resx">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormEditProfile.resx">
+      <DependentUpon>FormEditProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormMarcas.resx">
+      <DependentUpon>FormMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormProductos.resx">
+      <DependentUpon>FormProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\FormProvedores.resx">
+      <DependentUpon>FormProvedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\ListEnsamAlmVent.resx">
+      <DependentUpon>ListEnsamAlmVent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\ListEnsambles.resx">
+      <DependentUpon>ListEnsambles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompartidos\PendEnsambles.resx">
+      <DependentUpon>PendEnsambles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\AgrObservacion.resx">
+      <DependentUpon>AgrObservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\DuplicaEnsamble.resx">
+      <DependentUpon>DuplicaEnsamble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\DuplicatEnsamble.resx">
+      <DependentUpon>DuplicatEnsamble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\EditeObserv.resx">
+      <DependentUpon>EditeObserv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\NuevoEnsamble.resx">
+      <DependentUpon>NuevoEnsamble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\SeleccionCliente.resx">
+      <DependentUpon>SeleccionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\SeleccionProductos.resx">
+      <DependentUpon>SeleccionProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\SelectDupClient.resx">
+      <DependentUpon>SelectDupClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\SelectDupEnsamble.resx">
+      <DependentUpon>SelectDupEnsamble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEnsambles\SelectDupProduct.resx">
+      <DependentUpon>SelectDupProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RecoveryPassword.resx">
+      <DependentUpon>RecoveryPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ExportAlmVent.resx">
+      <DependentUpon>ExportAlmVent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Exportar.resx">
+      <DependentUpon>Exportar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReportesVentas.resx">
+      <DependentUpon>ReportesVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteVentas.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Presentacion_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Domain.Reportes.ListaVentas.datasource" />
+    <None Include="Properties\DataSources\Domain.Reportes.NetVentasReport.datasource" />
+    <None Include="Properties\DataSources\Domain.Reportes.ReportesdeVentas.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{a26f3289-1cfe-4aaa-86b6-f3308b0f1dcf}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{1b1d38e1-cca3-4462-9d83-fa10baa025bb}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icoPacs.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

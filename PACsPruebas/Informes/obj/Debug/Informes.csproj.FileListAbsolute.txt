@@ -1,0 +1,9 @@
+D:\Proyectos C#\PACsPruebas\Informes\bin\Debug\Informes.exe.config
+D:\Proyectos C#\PACsPruebas\Informes\bin\Debug\Informes.exe
+D:\Proyectos C#\PACsPruebas\Informes\bin\Debug\Informes.pdb
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.csprojAssemblyReference.cache
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.Properties.Resources.resources
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.csproj.GenerateResource.cache
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.exe
+D:\Proyectos C#\PACsPruebas\Informes\obj\Debug\Informes.pdb

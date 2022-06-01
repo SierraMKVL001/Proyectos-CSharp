@@ -1,0 +1,16 @@
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.exe
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.deps.json
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.runtimeconfig.json
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.runtimeconfig.dev.json
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.dll
+D:\Proyectos C#\InicioSesion\InicioSesion\bin\Debug\netcoreapp3.1\InicioSesion.pdb
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.csprojAssemblyReference.cache
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.csproj.GenerateResource.cache
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.AssemblyInfoInputs.cache
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.AssemblyInfo.cs
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.dll
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.pdb
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.genruntimeconfig.cache
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.Properties.Resources.resources
+D:\Proyectos C#\InicioSesion\InicioSesion\obj\Debug\netcoreapp3.1\InicioSesion.FormLogin.resources

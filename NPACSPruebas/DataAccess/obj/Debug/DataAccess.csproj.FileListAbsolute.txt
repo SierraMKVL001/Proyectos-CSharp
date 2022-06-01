@@ -1,0 +1,9 @@
+D:\Proyectos C#\NPACSPruebas\DataAccess\bin\Debug\DataAccess.dll
+D:\Proyectos C#\NPACSPruebas\DataAccess\bin\Debug\DataAccess.pdb
+D:\Proyectos C#\NPACSPruebas\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\Proyectos C#\NPACSPruebas\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\NPACSPruebas\DataAccess\obj\Debug\DataAccess.dll
+D:\Proyectos C#\NPACSPruebas\DataAccess\obj\Debug\DataAccess.pdb
+D:\Proyectos C#\NPACSPruebas\DataAccess\bin\Debug\Common.dll
+D:\Proyectos C#\NPACSPruebas\DataAccess\bin\Debug\Common.pdb
+D:\Proyectos C#\NPACSPruebas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete

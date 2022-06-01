@@ -1,0 +1,16 @@
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.exe
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.deps.json
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.runtimeconfig.json
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.runtimeconfig.dev.json
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.dll
+D:\Proyectos C#\Login\Login\bin\Debug\netcoreapp3.1\Login.pdb
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.csproj.GenerateResource.cache
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.AssemblyInfoInputs.cache
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.AssemblyInfo.cs
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.dll
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.pdb
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.genruntimeconfig.cache
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.csprojAssemblyReference.cache
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.Properties.Resources.resources
+D:\Proyectos C#\Login\Login\obj\Debug\netcoreapp3.1\Login.LoginPrin.resources

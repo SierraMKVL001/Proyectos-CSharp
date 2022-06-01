@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="FormAdmin\AdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\BienvnidaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\EnsamblesListos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\FormCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\FormEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\FormMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\FormProvedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAdmin\FormTecnicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAlmacen\AlmacenUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormAlmacen\EnsamblesPendientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCompartidos\EnsamblesFacturados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCompartidos\FormClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCompartidos\FormEditProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCompartidos\FormProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEnsambles\ListadeEnsambles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEnsambles\NuevoEnsamble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEnsambles\SeleccionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEnsambles\SeleccionProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRecepServ\EnsamblesPzasAsig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRecepServ\RecepcionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTecnico\BienvenidaTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTecnico\EnsamblesAsignados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTecnico\TecnicoUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVentas\BienvenidoAsesorV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVentas\FormProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVentas\ProductosExist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormVentas\VentasUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RecoveryPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Reportes\Importar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\AcerPredator\source\repos\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Proyectos C#\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\Proyectos C#\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Proyectos C#\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Proyectos C#\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\Common.dll
+D:\Proyectos C#\PACsPruebas\DataAccess\bin\Debug\netcoreapp3.1\Common.pdb
+D:\Proyectos C#\PACsPruebas\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete

@@ -1,0 +1,6 @@
+D:\Proyectos C#\NPACSPruebas\Common\bin\Debug\Common.dll
+D:\Proyectos C#\NPACSPruebas\Common\bin\Debug\Common.pdb
+D:\Proyectos C#\NPACSPruebas\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\Proyectos C#\NPACSPruebas\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\NPACSPruebas\Common\obj\Debug\Common.dll
+D:\Proyectos C#\NPACSPruebas\Common\obj\Debug\Common.pdb

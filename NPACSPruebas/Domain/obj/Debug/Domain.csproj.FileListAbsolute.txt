@@ -1,0 +1,11 @@
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\Domain.dll
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\Domain.pdb
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\DataAccess.dll
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\DataAccess.pdb
+D:\Proyectos C#\NPACSPruebas\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+D:\Proyectos C#\NPACSPruebas\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\NPACSPruebas\Domain\obj\Debug\Domain.csproj.CopyComplete
+D:\Proyectos C#\NPACSPruebas\Domain\obj\Debug\Domain.dll
+D:\Proyectos C#\NPACSPruebas\Domain\obj\Debug\Domain.pdb
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\Common.dll
+D:\Proyectos C#\NPACSPruebas\Domain\bin\Debug\Common.pdb

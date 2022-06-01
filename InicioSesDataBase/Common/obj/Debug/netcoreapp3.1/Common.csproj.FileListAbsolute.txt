@@ -1,0 +1,9 @@
+D:\Proyectos C#\InicioSesDataBase\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+D:\Proyectos C#\InicioSesDataBase\Common\bin\Debug\netcoreapp3.1\Common.dll
+D:\Proyectos C#\InicioSesDataBase\Common\bin\Debug\netcoreapp3.1\Common.pdb
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.dll
+D:\Proyectos C#\InicioSesDataBase\Common\obj\Debug\netcoreapp3.1\Common.pdb

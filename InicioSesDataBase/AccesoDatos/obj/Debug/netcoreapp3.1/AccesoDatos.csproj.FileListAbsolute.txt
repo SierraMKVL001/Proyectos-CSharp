@@ -1,0 +1,12 @@
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.deps.json
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.dll
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\bin\Debug\netcoreapp3.1\AccesoDatos.pdb
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csprojAssemblyReference.cache
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.AssemblyInfoInputs.cache
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.AssemblyInfo.cs
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.dll
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.pdb
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\bin\Debug\netcoreapp3.1\Common.dll
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\bin\Debug\netcoreapp3.1\Common.pdb
+D:\Proyectos C#\InicioSesDataBase\AccesoDatos\obj\Debug\netcoreapp3.1\AccesoDatos.csproj.CopyComplete
